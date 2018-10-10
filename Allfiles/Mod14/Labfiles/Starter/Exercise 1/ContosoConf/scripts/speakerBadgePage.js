@@ -25,7 +25,7 @@ export class SpeakerBadgePage {
         event.preventDefault();
 
         const files = event.dataTransfer.files;
-        if (files.length == 0) return;
+        if (files.length === 0) return;
 
         // More than one file could have been dropped, we'll just use the first.
         const file = files[0];
